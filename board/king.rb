@@ -1,12 +1,12 @@
-require_relative "slidable"
+require_relative "stepable"
 require_relative "piece"
 
-class Rook < Piece
+class King < Piece
   def symbol
-    return :R
+    return :Ki
   end
 
-  protected
+    protected
   def move_dirs
     
   end

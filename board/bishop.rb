@@ -1,14 +1,13 @@
 require_relative "slidable"
 require_relative "piece"
+class Bishop < Piece
 
-class Rook < Piece
   def symbol
-    return :R
+    return :B
   end
 
   protected
   def move_dirs
     
   end
-  
 end
